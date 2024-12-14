@@ -91,6 +91,4 @@ class ImageSorter:
 
         print(f"Images nettes déplacées vers: {self.clear_folder}")
         print(f"Statistiques sauvegardées dans: {stats_file}")
-path="C:/Users/33652/Desktop/PAr 104/Suivi de l'attention/deepgaze/saliencymap/fullgrad-saliency/dataset/imagenet"
-test=ImageSorter(path)
-test.sort_images(keep_percentage=0.5)
+
